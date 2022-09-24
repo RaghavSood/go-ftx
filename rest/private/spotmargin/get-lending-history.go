@@ -15,7 +15,7 @@ type ResponseForLendingHistory []LendingHistory
 
 type LendingHistory struct {
 	Coin string    `json:"coin"`
-	Cost float64   `json:"cost"`
+	Proceeds float64   `json:"proceeds"`
 	Rate float64   `json:"rate"`
 	Size float64   `json:"size"`
 	Time time.Time `json:"time"`
